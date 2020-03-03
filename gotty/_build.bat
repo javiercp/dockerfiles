@@ -1,2 +1,2 @@
 @echo off
-docker build . -t gotty:latest
+docker build . -t mygotty:latest
