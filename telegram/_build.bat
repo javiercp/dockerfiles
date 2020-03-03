@@ -1,2 +1,3 @@
 @echo off
-docker build . -t mytelegram:latest
+for %%I in (.) do set CurrDirName=%%~nxI
+docker build . -t %CurrDirName%:latest

@@ -1,2 +1,2 @@
 @echo off
-docker build . -t myngix:latest
+docker build . -t nginxserver:latest
